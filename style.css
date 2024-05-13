@@ -1,45 +1,49 @@
-body{
-    background: linear-gradient(180deg, #e707d1 0%, #ff0202 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 body {
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    color: antiquewhite;
-      }
+  
+  background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/28336278-dinheiro-fundo-projeto-modelo-ouro-moedas-desenho-animado-ilustracao-investimento-vetor.jpg);
+ 
 
-.container {
     text-align: center;
-}
+    
+  }
+  h1{
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    transform: translate(-50%, -50%);
+    font-size: 500%;
 
-input[type="text"] {
-    padding: 8px;
-    margin-bottom: 10px;
-}
+  }
+  div{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(29, 28, 28);
+    color: aliceblue;
 
-button {
-    padding: 8px 20px;
-    background-color: #000000;
-    color: #ffffff;
-    border: none;
-    cursor: pointer;
-}
+  }
+  label{
+    font-size: 200%;
+  }
+  select{
+    font-size: 200%;
+  }
+  input{
+    font-size: 200%;
+  }
+  button{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+  }
 
-button:hover {
-    background-color: #ffffff;
-}
-
-p {
-    font-size: 18px;
-    margin-top: 20px;
+h2{
+   position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   font-size: 500%;
 }

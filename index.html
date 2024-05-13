@@ -3,21 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Validador de cpf</title>
+    <title>Conversor de Moedas</title>
     <link rel="stylesheet" href="style.css">
-    <link src ="java.js" defer></script> 
-    
+    <script src="j.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Validador de CPF</h1>
-        <input type="text" id="cpfInput" placeholder="Digite o CPF">
-        <button onclick="validarCPF()">Validar</button>
-        <p id="resultado"></p>
-    </div>
+    <h1>Chico Moedas</h1>
+<div>
+    <form action="#">
+        <label for="moeda_origem">Moeda de Origem:</label>
+        <select id="moeda_origem" name="moeda_origem">
+            <option value="BRL">Real Brasileiro</option>
+            <option value="USD">Dólar Americano</option>
+            <option value="EUR">Euro</option>
+            </select>
+        <br>
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" name="valor" min="0.01" step="0.01" required>
+        <br>
+        <label for="moeda_destino">Moeda de Destino:</label>
+        <select id="moeda_destino" name="moeda_destino">
+            <option value="BRL">Real Brasileiro</option>
+            <option value="USD">Dólar Americano</option>
+            <option value="EUR">Euro</option>
+            </select>
+        <br>
+        <button type="submit">Converter</button>
+    </form>
+</div>
+    <h2 id="resultado"></h2>
 
-    <script src="java.js"></script>
-    <!--Alunos: Shamara Karolina, Maria Isabel, Cauã Vital, Heliana Beatriz, Laís Vitoria, Kawany Helen, Sanmara Lins e Gislaine Souza - 3ºE-->
-    
+    <footer>
+        <p>Copyright © 2024</p>
+    </footer>
+    <!--Alunos: Cauã Vital, Gisaline Souza, Heliana Beatriz, Kawany Helen, Laís Vitória, Maria Isabel, Sanmara Lins e Shamara Karolina-->
 </body>
 </html>
+
